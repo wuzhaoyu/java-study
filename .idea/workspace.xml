@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28d5de3-8e06-4069-9088-c84d624c3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/clone/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clone/CloneEfficiency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clone/StudentClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clone/StudentReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clone/StudentSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ComparableAndComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/List_ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/List_LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/Map_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/collection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/juc/ABA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/juc/AtomicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/juc/desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/sync/desc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/RedisLock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/RedisLockLua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redis/lock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/OperatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wzy/thread/timewheel/RingBufferWheel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wzy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wzy/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wzy/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wzy/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wzy/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wzy/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,34 +59,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="redis" />
       <recent name="collection" />
       <recent name="com.wzy.Enum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CloneEfficiency">
+  <component name="RunManager" selected="Application.RedisLockLua">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.juc.ABA" />
-      <module name="java-study" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="clone.StudentClone" />
+    <configuration name="OperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.OperatorDemo" />
       <module name="java-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="clone.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="clone.StudentReflect" />
+    <configuration name="RedisLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redis.RedisLock" />
       <module name="java-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="clone.*" />
+          <option name="PATTERN" value="redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +120,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSerializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="clone.StudentSerializable" />
+    <configuration name="RedisLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redis.RedisLock1" />
       <module name="java-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="clone.*" />
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisLockLua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redis.RedisLockLua" />
+      <module name="java-study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedisLockLua" />
+        <item itemvalue="Application.RedisLock1" />
+        <item itemvalue="Application.RedisLock" />
+        <item itemvalue="Application.OperatorDemo" />
         <item itemvalue="Application.CloneEfficiency" />
-        <item itemvalue="Application.StudentReflect" />
-        <item itemvalue="Application.StudentSerializable" />
-        <item itemvalue="Application.StudentClone" />
-        <item itemvalue="Application.ABA" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +219,10 @@
       <workItem from="1602318816064" duration="2804000" />
       <workItem from="1602333943720" duration="17910000" />
       <workItem from="1604062381986" duration="2644000" />
-      <workItem from="1604065295153" duration="4209000" />
+      <workItem from="1604065295153" duration="7559000" />
+      <workItem from="1604914281257" duration="1309000" />
+      <workItem from="1607081727632" duration="13054000" />
+      <workItem from="1607301144802" duration="2959000" />
     </task>
     <task id="LOCAL-00001" summary="静态代理与动态代理">
       <created>1590817369186</created>
@@ -241,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590817369186</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java 复制的三种方式">
+      <created>1604108485040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604108485040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,9 +246,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="静态代理与动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态代理与动态代理" />
+    <MESSAGE value="java 复制的三种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 复制的三种方式" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607171299972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607171299972" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1604065390195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,54 +262,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604065120926" />
-    <state width="938" height="248" key="GridCell.Tab.0.bottom" timestamp="1604108451015">
+    <state x="715" y="223" key="#xdebugger.evaluate" timestamp="1607134171903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108451015" />
-    <state width="938" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604067068558" />
-    <state width="938" height="248" key="GridCell.Tab.0.center" timestamp="1604108451014">
+    <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134171903" />
+    <state x="560" y="89" key="CommitChangelistDialog2" timestamp="1604108484084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="248" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108451014" />
-    <state width="938" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604067068558" />
-    <state width="938" height="248" key="GridCell.Tab.0.left" timestamp="1604108451014">
+    <state x="560" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108484084" />
+    <state width="1876" height="453" key="GridCell.Tab.0.bottom" timestamp="1607172923591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="248" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108451014" />
-    <state width="938" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604067068557" />
-    <state width="938" height="248" key="GridCell.Tab.0.right" timestamp="1604108451014">
+    <state width="1876" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927252" />
+    <state width="1876" height="453" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607172923591" />
+    <state width="1876" height="453" key="GridCell.Tab.0.center" timestamp="1607172923591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="248" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108451014" />
-    <state width="938" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604067068558" />
-    <state width="938" height="235" key="GridCell.Tab.1.bottom" timestamp="1604063897798">
+    <state width="1876" height="389" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927252" />
+    <state width="1876" height="453" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607172923591" />
+    <state width="1876" height="453" key="GridCell.Tab.0.left" timestamp="1607172923591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602553030399" />
-    <state width="938" height="235" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604063897798" />
-    <state width="938" height="235" key="GridCell.Tab.1.center" timestamp="1604063897798">
+    <state width="1876" height="389" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927252" />
+    <state width="1876" height="453" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607172923591" />
+    <state width="1876" height="453" key="GridCell.Tab.0.right" timestamp="1607172923591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="337" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602553030399" />
-    <state width="938" height="235" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604063897798" />
-    <state width="938" height="235" key="GridCell.Tab.1.left" timestamp="1604063897798">
+    <state width="1876" height="389" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927252" />
+    <state width="1876" height="453" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607172923591" />
+    <state width="1876" height="204" key="GridCell.Tab.1.bottom" timestamp="1607172847241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="337" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602553030399" />
-    <state width="938" height="235" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604063897798" />
-    <state width="938" height="235" key="GridCell.Tab.1.right" timestamp="1604063897798">
+    <state width="1876" height="389" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927175" />
+    <state width="1876" height="204" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607172847241" />
+    <state width="1876" height="204" key="GridCell.Tab.1.center" timestamp="1607172847241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="337" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602553030399" />
-    <state width="938" height="235" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604063897798" />
+    <state width="1876" height="389" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927175" />
+    <state width="1876" height="204" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607172847241" />
+    <state width="1876" height="204" key="GridCell.Tab.1.left" timestamp="1607172847241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="389" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927175" />
+    <state width="1876" height="204" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607172847241" />
+    <state width="1876" height="204" key="GridCell.Tab.1.right" timestamp="1607172847241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="389" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607134927175" />
+    <state width="1876" height="204" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607172847241" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1602401401151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602401401151" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1604066238521">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1607301101989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604066238521" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607301101989" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607172696361" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604108486559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604108486559" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.98.4" />
