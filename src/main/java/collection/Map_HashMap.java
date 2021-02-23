@@ -23,6 +23,7 @@ public class Map_HashMap {
         // 并且数组的容量小于64重新扩容
         // 3. JDK 1.7是头插发 1.8使用的是尾插发 解决死链问题
         hashMap.put("test","11");
+        hashMap.get("key");
 
         // HashSet 是只是包装了HashMap
 

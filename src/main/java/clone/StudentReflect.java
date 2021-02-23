@@ -1,5 +1,6 @@
 package clone;
 
+import java.io.Serializable;
 import java.lang.reflect.Field;
 
 /**
@@ -11,10 +12,9 @@ import java.lang.reflect.Field;
  * @version V1.0
  * @description 说明：
  **/
-public class StudentReflect {
+public class StudentReflect extends People implements Serializable {
 
     private int number;
-
 
     public int getNumber() {
         return number;
@@ -34,15 +34,18 @@ public class StudentReflect {
             return target;
     }
 
+
     public static void main(String[] args) {
         StudentReflect studentReflect = new StudentReflect();
         studentReflect.setNumber(1);
+        studentReflect.setName("sdsd");
         try {
             StudentReflect copy = studentReflect.copy(studentReflect);
             System.out.println(copy.getNumber());
             studentReflect.setNumber(2);
             copy.setNumber(2);
             System.out.println(copy.getNumber());
+            System.out.println(copy.getName());
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {

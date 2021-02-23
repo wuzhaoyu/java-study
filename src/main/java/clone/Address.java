@@ -1,5 +1,7 @@
 package clone;
 
+import java.io.Serializable;
+
 /**
  * 类功能说明:
  * 类修改者	创建日期2020/10/30
@@ -9,7 +11,7 @@ package clone;
  * @version V1.0
  * @description 说明：
  **/
-public class Address implements Cloneable {
+public class Address implements Cloneable, Serializable {
     private String add;
 
     public String getAdd() {
